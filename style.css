@@ -8,6 +8,8 @@
     border-bottom: black solid;
     
 }
-#img {
-    max-height: 200px;
+#buying {
+    display: inline-flex;
+    justify-content: center;
 }
+
