@@ -1,15 +1,25 @@
-
-
-#pbm{
-    font-size: 60px;
+.heroImageBig {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://upload.wikimedia.org/wikipedia/commons/e/ea/Indian_Spices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#navText {
-    font-size: 15px;
-    border-bottom: black solid;
+
+.title {
+  color: black;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width: 539px) {
+header > section > h1 {
+    text-align: center;
     
 }
-#buying {
-    display: inline-flex;
-    justify-content: center;
+/* header > section > nav > ul li {
+  font-size: 2.5vw;
+} */
 }
-
